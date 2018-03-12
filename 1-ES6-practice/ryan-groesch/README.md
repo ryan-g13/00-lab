@@ -16,16 +16,16 @@ Follow these instructions carefully and in order.
 10. Now find all concatenations in the code and convert them into template literal notation.
 11. Reload the browser to ensure that the code works as expected.
 12. **Save the code, and do a Git "add" and "commit".**
-13. Answer the following questions:
+13. Answer the following questions: 
 
 ---
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Const was used almost exclusively for things that did not need to be iterated such as 'i' or for things that were overwritten over previously declared values. Let is good solution in those smaller use cases where things need to be overwritten and or iterated on/changed value of. 
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It is honestly fantastic if you remember the curious notation for it. No complaints and will definitely use in the future. 
